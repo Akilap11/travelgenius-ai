@@ -1,5 +1,7 @@
 # AI Trip Planner 🌍✈️
 
+![AI Trip Planner Screenshot](https://raw.githubusercontent.com/Akilap11/travelgenius-ai/main/public/preview.png)
+
 ## Overview
 AI Trip Planner is a full stack web application that helps users plan personalized trips using AI. Built with **Next.js**, **React**, and **TypeScript**, it integrates **Mapbox** for interactive maps, **Google Places API** for location data, **Arcjet** for performance optimization, and **Clerk** for authentication.
 
