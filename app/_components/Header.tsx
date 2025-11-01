@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { SignInButton } from "@clerk/nextjs";
 
 const menuItems = [
   { title: "Home", path: "/" },
@@ -29,7 +30,10 @@ const Header = () => {
       </div>
 
       {/* Get Started Button #087443 */}
-      <Button>Get Started</Button>
+      <SignInButton mode='modal'> 
+        <Button>Get Started</Button>
+      </SignInButton>
+     
     </div>
   );
 };
